@@ -1,0 +1,36 @@
+.header{
+    background-color:blue;
+    color:darkgray;
+}
+.header:hover{
+    background-color:crimson;
+}
+#one{
+    color:bisque;
+}
+#two{
+    color:burlywood;
+}
+#three{
+    color:coral;
+}
+#four,#five,#six{
+    color:darkorchid;
+}
+*{
+    color:lawngreen;
+}
+.link{
+    text-decoration: none;
+    color:azure;
+    background-color:crimson;
+    padding: 1px;
+    border-radius: 1px;
+}
+.link:hover{
+    color:goldenrod(244,238,238); 
+    background-color:deepskyblue(30,57,210);
+}
+
+
+
