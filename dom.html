@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="message">Hello world</h1>
+    <button onclick="changetext()">clickme</button>
+    <input type="text" id="name" placeholder="Enter the name">
+    <button oneclick="addname()">Add</button>
+    <Ol id="display">
+        <li>Akar</li>
+    </Ol>
+    <script>
+        function changetext(){
+            const elem = document.getElementById('message');
+            elem.innertext="Hello Kprcas"
+            elem.style.color="red"
+            elem.style.fontsize="24px"
+        }
+    </script>
+    </body>
+</html>
