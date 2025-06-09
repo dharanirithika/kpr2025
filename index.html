@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>"kprcas2025 color:aqua;>"</title>
-    <link rel="stylesheet" href="css/style.css"
-    <style>
-        h2{
-            color:indianred;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<script>
-    console.log("hello world")
-    var a;
-    a=10;
-    var b=20;
-    var c=15;
-    console.log(a+b)
-    console.log(a-b)
-    console.log(a*b)
-    console.log(a/b)
-    console.log(a%b)
-</script>
 <body>
-    <h1 style="color:pink; font-size: 100px;">Hello kpr</h1>
-    <h2>this is vac class</h2>
-    <h3> web<br> development</h3>
-    <p class="header"><b>lorem</b> LOREM 50 <br>
-        <i>this </i> is my <br>
-        <strong>web page </strong></p>
-        <em><u>full stack</u></em>
-        <ol>
-        <li id="one">it</li>
-        <li id="two">ct</li>
-        <li id="three">bca</li>
-        <a class="link link-one" href="https://www.instagram.com/" target= "_blank">INSTAGRAM </a><br>
-        <a class="link " href="home.html">Home</a>
-    </ol>
-    <ul>
-        <li id="four">it</li>
-        <li id="five">ct</li>
-        <li id="six">bca</li>
-    </ul>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+    }
+    input {
+      margin-bottom: 10px;
+      display: block;
+    }
+    #output {
+      margin-top: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+  <h2>Enter Your Details</h2>
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name">
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Enter your email">
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" placeholder="Enter your age">
+
+  <button onclick="displayDetails()">Submit</button>
+
+  <div id="output"></div>
+
+  <script>
+    function displayDetails() {
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const age = document.getElementById('age').value;
+
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = `
+        <h3>Entered Details:</h3>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Age:</strong> ${age}</p>
+         `;
+    }
+  </script>
+
 </body>
+</html>
+
+<body>
+        </body>
 </html>
